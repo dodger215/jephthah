@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 style="text-align: center;">Evaluating Varaibles</h1>  
+<div style="text-align: center;"> 
+<button onclick="Evaluate()">TRY IT</button> 
+<p id="res"></p>
+</div>
+
+<script>
+
+    function Evaluate(){
+        var x = 10;
+        var y = 20;
+        var a = eval("x + y") + "<br>";
+        var b = eval("2 * 2") + "<br>";
+        var c = eval("y - x") + "<br>";
+        var res = a + b + c;
+        document.getElementById("res").innerHTML = res ;
+    }
+
+    
+</script>
+</body>
+</html>

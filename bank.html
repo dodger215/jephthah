@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANKING</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <div class="container body">
+    <h1 style="text-align: center; color: chocolate;">wolf banking</h1>
+    <div class="wrapper main">
+        <div class="container-fluid">
+            <div class="row head">
+                <b class="bal">BALANCE</b>
+                <b class="int">INTREST</b>
+                  <input type="text" class="text" id="result-balance" ">
+                  <input type="button" class="btn" value="BAL" onclick="balbtn()">
+                  <input type="text" class="text" id="result-intrest" >
+                  <input type="button" class="btn" value="INT" onclick="intbtn()">
+            </div>
+            <div class="row ">
+                <div class="container distribution" >
+                   <b>SAVINGS</b><input type="text" class="save" id="savings"><br>
+                   <b>INVESTMENTS</b><input type="text" class="invest" id="invest"><br>
+                   <b>PROFITS</b><input type="text" class="profit">
+                </div>
+                <div class="container profile">
+                    <h1>PROFILE</h1>
+                        <b>NAME</b><input type="text" class="name"><br>
+                        <b>ACCOUNT-NO</b><input type="text" class="account"><br>
+                        <b>TEL-NUM</b><input type="text" class="number"><br>
+                        <b>BRANCH</b><input type="text" class="branch"><br>
+                        <b>OCCUPATION</b><input type="text" class="work"><br>
+                 </div>
+            </div>
+            <div class="row container progress">
+                <h3 class="prog">PROGRESS</h3>
+                <input type="text" class="target">
+            </div>
+            <div class="row container deposite">
+                <h1>DEPOSITE</h1> 
+                 <b>amount</b><br>
+                 <input type="text" class="amount" id="amount"><br>
+                 <b>number</b><br>
+                 <input type="text" class="number2" id="number"><br>
+                 <b>password</b><br>
+                 <input type="password" class="password" id="pass1"> 
+                 <input type="password" class="password" id="pass2"> 
+                   <br><br>
+                 <input type="button" value="DEPOSITE" class="depo-btn" onclick="deposite()">  
+            </div>
+        </div>
+    </div>
+</div>
+<script src="bank.js"></script>
+</body>
+</html>

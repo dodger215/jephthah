@@ -1,0 +1,157 @@
+.body{
+    font-family: 'algerian';
+    background-color: gray;
+    border-radius: 1rem;
+    padding: 20px;
+    width: 770px;
+}
+.head{
+    background-color: crimson;
+    border-radius: 0.5rem;
+    width: 750px;
+    height: 160px;
+    margin: 10px;
+   
+}
+.main{
+    text-align: center;
+}
+.bal{
+margin-right: 250px;
+font-size: 25px;
+}
+.int{
+    margin-right: 250px;
+    font-size: 25px;
+}
+.text{
+    height: 70px;
+    width: 300px;
+    border-radius: 4px;
+    padding-top: 48px;
+    font-size: 50px;
+    align-items: center;
+    background-color: pink;
+}
+.btn{
+    height: 60px;
+    width: 50px;
+   border-radius: 30px;
+   font-size: medium;
+}
+.btn:active{
+    background-color: pink;
+    color: red;
+    transition: 0.5s;
+}
+
+.distribution{
+    text-align: left;
+    background-color: blueviolet;
+    width: 335px;
+    padding: 5px;
+    border-radius: 0.5rem;
+    margin: 6px;
+}
+.save{
+    height: 30px;
+    margin: 20px;
+    margin-left: 68px;
+   
+}
+.invest{
+    height: 30px;
+    margin: 20px;
+
+}
+.profit{
+    height: 35px;
+    margin: 20px;
+    margin-left: 68px;
+}
+.profile{
+   margin-left: 360px;
+   margin-top: -245px;
+   background-color: darkmagenta;
+   text-align: left;
+   padding: 7px;
+   border-radius: 0.5rem;
+   height: 300px;
+   width: 390px;
+}
+.name{
+   margin: 10px;
+   width: 230px;
+}
+.account{
+    margin: 10px;
+    width: 180px;
+}
+.number{
+    margin: 10px;
+    width: 205px;
+}
+.branch{
+    margin: 10px;
+    width: 215px;
+}
+.work{
+    margin: 10px;
+    width: 180px;
+}
+.progress{
+    text-align: left;
+    margin-top: -90px;
+    background-color: deeppink;
+    width: 350px;
+    height: 80px;
+    border-radius: 0.5rem;
+}
+.target{
+    width: 330px;
+    margin: 5px;
+    height: 23px;
+}
+.prog{
+    text-align: center;
+    font-size: larger;
+}
+.deposite{
+    background-color: salmon;
+    height: 450px;
+    width: 770px;
+    border-radius: 0.5rem;
+    margin: 5px;
+}
+.amount{
+    height: 30px;
+    border-radius: 5px;
+    border-right: none;
+    border-bottom: none;
+    margin: 20px;
+}
+.number2{
+    height: 30px;
+    border-radius: 5px;
+    border-right: none;
+    border-bottom: none;
+    margin: 20px;
+}
+.password{
+    height: 30px; 
+    border-radius: 5px;
+    border-right: none;
+    border-bottom: none;
+    margin: 20px;
+}
+.depo-btn{
+    height: 50px;
+    width: 150px;
+    font: bold;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+.depo-btn:active{
+    background-color: indianred;
+}
